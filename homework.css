@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .3s linear;
+}
+.userCredentialsDiv {
+    z-index: 50;
+    width: 100vw;
+    height: 100vh;
+    background-color: aliceblue;
+    position: absolute;
+    top: 0;
+    transition: all .3s linear;
+}
+.createUserForm {
+    width: 60vw;
+    height: 70vh;
+    margin: 100px auto;
+    border: 1px solid black;
+    box-shadow: 0px 0px 2px 2px black inset, 0px 0px 2px 2px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    transition: all .3s linear;
+    align-items: center;
+    border-radius: 5px;
+}
+.formControl {
+    width: 90%;
+    height: 50px;
+    border: 2px solid snow;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+    transition: all .3s linear;
+}
+.formControl:focus {
+    border: 4px solid skyblue;
+}
+.userBalance {
+    width: 90%;
+    height: 50px;
+    border: 2px solid snow;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+    transition: all .3s linear;
+}
+.userBalance:focus {
+    border: 4px solid skyblue;
+}
+.inputStatus {
+    width: 90%;
+    height: 50px;
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: .8em;
+    transition: all .3s linear;
+}
+
+.submitButton {
+    width: 90%;
+    height: 60px;
+    border: 2px solid rgb(9, 171, 68);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.5em;
+    box-shadow: 4px 4px black;
+    transition: all .3s linear;
+    cursor: pointer;
+}
+.submitButton:hover {
+    box-shadow: 2px 2px black;
+}
+
+:root {
+    --side-top-color: rgb(45,43,56);
+    --content-color: rgb(34,32,45);
+    --color: white;
+    --seconday-color: rgb(109,114,128);
+    --button-background-color: rgb(141 116 224);
+    --box-sizing-property: border-box;
+    --common-padding: 0;
+    --common-margin: 0;
+    --common-overflow: hidden;
+    --common-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    --common-font-size: 1.1em;
+}
+.simpleDashbord {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: var(--box-sizing-property);
+    padding: var(--common-padding);
+}
+.sideBar {
+    width: 33vw;
+    height: 100vh;
+    box-sizing: var(--box-sizing-property);
+    background-color: var(--side-top-color);
+    overflow: var(--common-overflow);
+    border-right: 2px solid gray;
+}
+.sideBar h1 {
+    color: var(--color);
+    font-family: var(--common-font-family);
+    font-size: var(--common-font-size);
+    padding-left: 10px;
+}
+
+.menu-items {
+    width: 100%;
+    height: 85%;
+    overflow: var(--common-overflow);
+    display: flex;
+    flex-direction: column;
+}
+.menu-items::before {
+    content: "ALL BOARDS (3)";
+    font-family: var(--common-font-family);
+    font-size: .9em;
+    margin: 10px 10px 40px 10px;
+    color: var(--seconday-color);
+    font-weight: bolder;
+}
+.menu-items button {
+    width: 90%;
+    height: 45px;
+    border-radius: 0 20px 20px 0;
+    font-family: var(--common-font-family);
+    font-size: var(--common-font-size);
+    border: none;
+    margin: 2px;
+    background-color: var(--button-background-color);
+    color:var(--color);
+    cursor: pointer;
+}
+.menu {
+    font-family: var(--common-font-family);
+    font-size: var(--common-font-size);
+    background: none;
+    border: none;
+    color: var(--color);
+    margin-left: 25%;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+.menu:hover {
+    border: 1px solid white;
+}
+.dashboardContainer {
+
+}
+.add-data-item {
+
+}
+.data-item-form {
+
+}
+.data-items-history {
+
+}
+.data-items-history-table {
+
+}
+.data-items-history-body {
+
+}
